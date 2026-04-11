@@ -8,17 +8,14 @@ export default function Page() {
       flexDirection: 'column',
       alignItems: 'center', 
       justifyContent: 'center',
+      textAlign: 'center',
       fontFamily: 'sans-serif',
-      backgroundColor: '#f8fafc'
+      padding: '20px'
     }}>
-      <h1 style={{ color: '#1e40af', fontSize: '3rem', marginBottom: '1rem' }}>
-        NHẬT THIÊM SƠN SÀI GÒN
-      </h1>
-      <p style={{ fontSize: '1.25rem', color: '#475569' }}>
-        Website đang được kết nối hệ thống. Vui lòng đợi trong giây lát...
-      </p>
-      <div style={{ marginTop: '2rem', padding: '1rem 2rem', background: '#2563eb', color: 'white', borderRadius: '8px' }}>
-        Đã kết nối thành công!
+      <h1 style={{ color: '#2563eb', fontSize: '3rem' }}>NHẬT THIÊM SƠN SÀI GÒN</h1>
+      <p style={{ fontSize: '1.5rem' }}>Hệ thống đang khởi động...</p>
+      <div style={{ marginTop: '20px', padding: '15px', background: '#e2e8f0', borderRadius: '8px' }}>
+        Đang cấu hình lại các linh kiện giao diện. Vui lòng đợi!
       </div>
     </div>
   )
