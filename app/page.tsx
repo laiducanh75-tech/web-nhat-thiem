@@ -1,22 +1,25 @@
-"use client"
+import Header from "@/components/logistics/Header"
+import HeroSection from "@/components/logistics/HeroSection"
+import ServicesSection from "@/components/logistics/ServicesSection"
+import StatsSection from "@/components/logistics/StatsSection"
+import ProjectsSection from "@/components/logistics/ProjectsSection"
+import WhyChooseUs from "@/components/logistics/WhyChooseUs"
+import TestimonialsSection from "@/components/logistics/TestimonialsSection"
+import ContactSection from "@/components/logistics/ContactSection"
+import Footer from "@/components/logistics/Footer"
 
-import { Header } from "@/components/logistics/Header"
-import { HeroSection } from "@/components/logistics/HeroSection"
-import { ServicesSection } from "@/components/logistics/ServicesSection"
-import { ProcessSection } from "@/components/logistics/ProcessSection"
-import { ContactSection } from "@/components/logistics/ContactSection"
-import { Footer } from "@/components/logistics/Footer"
-
-export default function LogisticsPage() {
+export default function Home() {
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen">
       <Header />
       <HeroSection />
       <ServicesSection />
-      <ProcessSection />
+      <StatsSection />
+      <ProjectsSection />
+      <WhyChooseUs />
+      <TestimonialsSection />
       <ContactSection />
       <Footer />
     </main>
   )
 }
-// Update website 2026
