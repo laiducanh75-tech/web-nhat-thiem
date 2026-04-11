@@ -1,15 +1,8 @@
-import Header from "@/components/logistics/Header"
-import HeroSection from "@/components/logistics/HeroSection"
-import ServicesSection from "@/components/logistics/ServicesSection"
-import Footer from "@/components/logistics/Footer"
-
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      <Header />
-      <HeroSection />
-      <ServicesSection />
-      <Footer />
-    </main>
+    <div style={{ padding: '50px', textAlign: 'center' }}>
+      <h1>Website Nhật Thiêm Sơn Sài Gòn đang khởi tạo...</h1>
+      <p>Vui lòng quay lại sau vài phút.</p>
+    </div>
   )
 }
