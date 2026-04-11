@@ -1,6 +1,6 @@
 "use client"
 
-// Đây là lệnh gọi các file con bạn vừa tạo
+// Lệnh này sẽ gọi các file bạn vừa tạo trong thư mục components
 import { Header } from "@/components/logistics/header"
 import { HeroSection } from "@/components/logistics/hero-section"
 import { ServicesSection } from "@/components/logistics/services-section"
