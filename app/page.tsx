@@ -25,7 +25,7 @@ export default function LogisticsPage() {
       <header className="sticky top-0 z-50 bg-[#002b5b] text-white shadow-2xl">
         <div className="container mx-auto px-4 h-24 flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <img src="https://i.ibb.co/Xz900jC/logo-ts-red.png" alt="Logo" className="h-16 w-auto bg-white p-1.5 rounded-lg shadow-lg" />
+            <img src="https://postimg.cc/fJQYXwSh" alt="Logo" className="h-16 w-auto bg-white p-1.5 rounded-lg shadow-lg" />
             <div>
               <div className="font-black text-xl md:text-2xl leading-none uppercase tracking-tight">Nhất Thiên Sơn</div>
               <div className="text-[10px] md:text-xs text-orange-400 tracking-[0.3em] font-bold mt-1">SAIGÒN LOGISTICS</div>
@@ -59,7 +59,7 @@ export default function LogisticsPage() {
       {/* 3. HERO BANNER - Bến cảng Container & Ô tra cứu (Chuẩn nts.jpg) */}
       <section className="relative h-[700px] flex items-center text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src="https://images.unsplash.com/photo-1590496794008-383c8070b257?auto=format&fit=crop&q=80" className="w-full h-full object-cover" alt="Port" />
+          <img src="?https://i.postimg.cc/9FmK6yPr/nts.jpg?auto=mat&fit=crop&q=80" className="w-full h-full object-cover" alt="Port" />
           <div className="absolute inset-0 bg-gradient-to-r from-[#002b5b]/95 via-[#002b5b]/70 to-transparent"></div>
         </div>
         
@@ -136,9 +136,10 @@ export default function LogisticsPage() {
               <h2 className="text-5xl md:text-7xl font-black mb-8 leading-tight tracking-tighter">Kết nối <br/><span className="text-orange-500">Báo giá</span></h2>
               <div className="space-y-8 text-xl font-bold">
                 <div className="flex items-start gap-5 italic text-orange-400"> <ShieldCheck size={30}/> CHUYÊN NGHIỆP - TẬN TÂM - UY TÍN</div>
-                <div className="flex items-center gap-5"><Phone className="text-orange-500"/> 0888 447 239</div>
+                <div className="flex items-center gap-5"><Phone className="text-orange-500"/> 0888 447 239
+                                                                                              0919417239</div>
                 <div className="flex items-center gap-5"><Mail className="text-orange-500"/> nhatthiensonsaigon@gmail.com</div>
-                <div className="flex items-start gap-5"><MapPin className="text-orange-500 shrink-0"/> 138/10 Khu Phố 37, Thới An, Q.12, TP.HCM</div>
+                <div className="flex items-start gap-5"><MapPin className="text-orange-500 shrink-0"/> 138/10 Khu Phố 57, Thới An, Q.12, TP.HCM</div>
               </div>
             </div>
             
