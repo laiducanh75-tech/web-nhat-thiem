@@ -1,7 +1,6 @@
 {
   "name": "web-nhat-thiem",
-  "version": "1.0.0",
   "scripts": {
-    "build": "mkdir -p .next && echo 'Done'"
+    "build": "mkdir public && cp sitemap.xml public/"
   }
 }
