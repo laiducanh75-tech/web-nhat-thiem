@@ -118,7 +118,7 @@ export default function LogisticsPage() {
                 <h2 className="text-3xl font-black mb-6 tracking-tight">Liên hệ báo giá</h2>
                 <p className="text-white/70 mb-10 font-medium leading-relaxed">Đội ngũ chuyên gia của chúng tôi luôn sẵn sàng hỗ trợ bạn 24/7.</p>
                 <div className="space-y-6">
-                  <div className="flex items-center gap-4 font-bold text-lg"><Phone className="text-orange-400"/> 0888 447 239</div>
+                  <div className="flex items-center gap-4 font-bold text-lg"><Phone className="text-orange-400"/> 0888 447 239-0919 417 239</div>
                   <div className="flex items-center gap-4 font-bold"><Mail className="text-orange-400 shrink-0"/> nhatthiensonsaigon@gmail.com</div>
                   <div className="flex items-start gap-4 font-medium"><MapPin className="text-orange-400 shrink-0"/> 138/10 Khu Phố 37, Phường Thới An, Quận 12, TP.HCM</div>
                 </div>
@@ -144,7 +144,7 @@ export default function LogisticsPage() {
           <p className="text-2xl font-black mb-2 uppercase tracking-tight">NHẤT THIÊN SƠN SÀI GÒN LOGISTICS</p>
           <p className="text-white/50 text-sm mb-10">Giải pháp vận tải hàng đầu - Uy tín - Tận tâm - Chuyên nghiệp</p>
           <div className="border-t border-white/10 pt-8 text-white/40 text-xs font-medium">
-            © 2026 Toàn bộ bản quyền được bảo lưu bởi NHẬT THIÊM SƠN SÀI GÒN.
+            © 2026 Toàn bộ bản quyền được bảo lưu bởi NHẤT THIÊN SƠN SÀI GÒN.
           </div>
         </div>
       </footer>
