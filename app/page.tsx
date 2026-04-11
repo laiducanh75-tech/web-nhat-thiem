@@ -1,11 +1,11 @@
 "use client"
 
-import { Header } from "@/components/logistics/header"
-import { HeroSection } from "@/components/logistics/hero-section"
-import { ServicesSection } from "@/components/logistics/services-section"
-import { ProcessSection } from "@/components/logistics/process-section"
-import { ContactSection } from "@/components/logistics/contact-section"
-import { Footer } from "@/components/logistics/footer"
+import { Header } from "@/components/logistics/Header"
+import { HeroSection } from "@/components/logistics/HeroSection"
+import { ServicesSection } from "@/components/logistics/ServicesSection"
+import { ProcessSection } from "@/components/logistics/ProcessSection"
+import { ContactSection } from "@/components/logistics/ContactSection"
+import { Footer } from "@/components/logistics/Footer"
 
 export default function LogisticsPage() {
   return (
