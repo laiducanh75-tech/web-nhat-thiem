@@ -171,7 +171,7 @@ export default function LogisticsPage() {
              <span className="flex items-center gap-2 tracking-tighter"><ShieldCheck size={18}/> AN TOÀN</span>
           </div>
           <div className="pt-10 border-t border-white/5 text-white/30 text-[10px] font-black uppercase tracking-[0.5em]">
-            © 2026 NHẬT THIÊM SƠN SÀI GÒN - ALL RIGHTS RESERVED
+            © 2026 NHẤT THIÊN SƠN SÀI GÒN - ALL RIGHTS RESERVED
           </div>
         </div>
       </footer>
