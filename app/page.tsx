@@ -1,10 +1,24 @@
-export default function Home() {
+"use client"
+
+export default function Page() {
   return (
-    <div style={{ padding: '100px', textAlign: 'center', fontFamily: 'sans-serif' }}>
-      <h1 style={{ color: '#2563eb', fontSize: '40px' }}>NHẬT THIÊM SƠN SÀI GÒN</h1>
-      <p style={{ fontSize: '20px' }}>Hệ thống đang được cập nhật...</p>
-      <div style={{ marginTop: '30px', padding: '20px', backgroundColor: '#f0f4f8', borderRadius: '10px' }}>
-        <p>Liên hệ báo giá ngay: <b>[Số điện thoại của bạn]</b></p>
+    <div style={{ 
+      minHeight: '100vh', 
+      display: 'flex', 
+      flexDirection: 'column',
+      alignItems: 'center', 
+      justifyContent: 'center',
+      fontFamily: 'sans-serif',
+      backgroundColor: '#f8fafc'
+    }}>
+      <h1 style={{ color: '#1e40af', fontSize: '3rem', marginBottom: '1rem' }}>
+        NHẬT THIÊM SƠN SÀI GÒN
+      </h1>
+      <p style={{ fontSize: '1.25rem', color: '#475569' }}>
+        Website đang được kết nối hệ thống. Vui lòng đợi trong giây lát...
+      </p>
+      <div style={{ marginTop: '2rem', padding: '1rem 2rem', background: '#2563eb', color: 'white', borderRadius: '8px' }}>
+        Đã kết nối thành công!
       </div>
     </div>
   )
