@@ -1,8 +1,10 @@
+import React from 'react'
+
 export default function Home() {
   return (
-    <div>
+    <main style={{ padding: '2rem', textAlign: 'center' }}>
       <h1>Chào mừng bạn đến với Nhật Thiêm Sơn Sài Gòn</h1>
-      <p>Web đang được cập nhật...</p>
-    </div>
-  );
+      <p>Trang web đang trong quá trình cập nhật...</p>
+    </main>
+  )
 }
