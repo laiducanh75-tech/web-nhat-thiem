@@ -144,7 +144,7 @@ export default function LogisticsPage() {
               <div className="space-y-6 text-sm md:text-lg font-bold">
                 <p className="flex items-center justify-center md:justify-start gap-4"><Phone className="text-orange-500" size={24}/> 0888 447 239</p>
                 <p className="flex items-center justify-center md:justify-start gap-4"><Mail className="text-orange-500" size={24}/> nhatthiensonsaigon@gmail.com</p>
-                <p className="flex items-start justify-center md:justify-start gap-4"><MapPin className="text-orange-500 shrink-0" size={24}/> 138/10 Khu Phố 37, Thới An, Q.12, TP.HCM</p>
+                <p className="flex items-start justify-center md:justify-start gap-4"><MapPin className="text-orange-500 shrink-0" size={24}/> 138/10 Khu Phố 57, Thới An, Q.12, TP.HCM</p>
               </div>
             </div>
             
@@ -169,7 +169,7 @@ export default function LogisticsPage() {
           <img src={myLogo} alt="Footer Logo" className="h-16 w-auto mx-auto bg-white p-2 rounded-xl mb-6 shadow-md" />
           <h4 className="text-xs md:text-sm font-black uppercase mb-4 tracking-tight">NHẤT THIÊN SƠN SÀI GÒN LOGISTICS</h4>
           <p className="text-white/20 text-[8px] font-bold uppercase tracking-[0.4em] pt-6 border-t border-white/5">
-            © 2026 NHẬT THIÊM SƠN SÀI GÒN - ALL RIGHTS RESERVED
+            © 2026 NHẤT THIÊN SƠN SÀI GÒN - ALL RIGHTS RESERVED
           </p>
         </div>
       </footer>
