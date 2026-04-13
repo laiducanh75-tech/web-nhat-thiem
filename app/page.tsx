@@ -144,7 +144,7 @@ export default function LogisticsPage() {
               <div className="space-y-6 text-sm md:text-lg font-bold">
                 <p className="flex items-center justify-center md:justify-start gap-4"><Phone className="text-orange-500" size={24}/> 0888 447 239</p>
                 <p className="flex items-center justify-center md:justify-start gap-4"><Mail className="text-orange-500" size={24}/> nhatthiensonsaigon@gmail.com</p>
-                <p className="flex items-start justify-center md:justify-start gap-4"><MapPin className="text-orange-500 shrink-0" size={24}/> 138/10 Khu Phố 57, Thới An, Q.12, TP.HCM</p>
+                <p className="flex items-start justify-center md:justify-start gap-4"><MapPin className="text-orange-500 shrink-0" size={24}/> 138/10 Khu Phố 57, Phường Thới An, TP.HCM,Việt Nam</p>
               </div>
             </div>
             
