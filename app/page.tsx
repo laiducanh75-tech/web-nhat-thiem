@@ -1,9 +1,4 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a/app/page.tsx b/app/page.tsx
-index 6377c746c6b6248fb07530b637e2c4eb227b4708..def1c6f5aed93c59967bc6e5d994779aba6bd88d 100644
---- a/app/page.tsx
-+++ b/app/page.tsx
-@@ -1,178 +1,463 @@
+
  "use client"
  
  import React, { useState } from 'react'
