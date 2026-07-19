@@ -688,7 +688,7 @@ export function ProfileHero() {
 // ============================================================================
 
 export default function GeneralOverview() {
-  const [activeTab, setActiveTab] = useState<'profile' | 'philosophy' | 'commitments'>('profile');
+   const [activeTab, setActiveTab] = useState<'profile' | 'philosophy' | 'commitments'>('profile');
 
   return (
     <section id="tong-quan" className="py-24 bg-white scroll-mt-20">
