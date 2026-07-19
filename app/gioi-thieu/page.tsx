@@ -711,20 +711,18 @@ export default function GeneralOverview() {
             {/* Điều hướng Tab con tăng tính tương tác */}
             <div className="flex border-b border-slate-200 gap-4 text-xs md:text-sm font-black uppercase tracking-wider pb-2">
               <button 
-                onClick={() => setActiveTab('profile')} 
+                onClick={() => setActiveTab('profile')}
                 className={`pb-2 outline-none border-b-2 transition-all ${activeTab === 'profile' ? 'border-orange-500 text-orange-500' : 'border-transparent text-slate-400 hover:text-slate-600'}`}
               >
                 Hồ Sơ Đăng Ký
               </button>
               <button 
-                onClick={() => setActiveTab('philosophy')} 
+                onClick={() => setActiveTab('philosophy')}
                 className={`pb-2 outline-none border-b-2 transition-all ${activeTab === 'philosophy' ? 'border-orange-500 text-orange-500' : 'border-transparent text-slate-400 hover:text-slate-600'}`}
               >
                 Triết Lý Kinh Doanh
               </button>
-            </button>
             </div>
-
             {/* Nội dung tương ứng theo trạng thái Tab */}
             {activeTab === 'profile' && (
               <div className="overflow-x-auto shadow-xl rounded-2xl border border-slate-200 bg-white transition-all animate-in fade-in duration-300">
