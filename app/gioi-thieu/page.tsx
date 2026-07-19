@@ -124,7 +124,7 @@ export default function GioiThieuPage() {
       {/* FOOTER ĐƠN GIẢN CUỐI TRANG */}
       <footer className="py-12 text-center text-xs text-stone-500 border-t border-stone-900">
         <p>© 2026 Nhất Thiên Sơn Sài Gòn Logistics. All rights reserved.</p>
-        <p className="mt-1 text-stone-600">Địa chỉ: Thoi An Ward, Quận 12, TP. Hồ Chí Minh</p>
+        <p className="mt-1 className-stone-600">Địa chỉ: Thoi An Ward, Quận 12, TP. Hồ Chí Minh</p>
       </footer>
 
     </div>
