@@ -680,8 +680,8 @@ export function ProfileHero() {
         </div>
       </div>
     </section>
-  )
-
+</section>
+    )
 
 // ============================================================================
 // COMPONENT 3: GENERAL OVERVIEW (TỔNG QUAN HỒ SƠ PHÁP NHÂN CÔNG TY)
