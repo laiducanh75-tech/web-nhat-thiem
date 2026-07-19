@@ -607,7 +607,7 @@ export function ProfileHero() {
    }
 
   return (
-    <section>className="relative min-h-[550px] flex items-center text-white overflow-hidden bg-slate-950 border-b border-white/5"> //
+    <section className="relative min-h-[550px] flex items-center text-white overflow-hidden bg-slate-950 border-b border-white/5">
       {/* Khối lớp nền hình ảnh kỹ thuật số */}
       <div className="absolute inset-0 z-0 select-none pointer-events-none">
         <img 
@@ -650,7 +650,7 @@ export function ProfileHero() {
             <ArrowRight size={16} className="transform group-hover:translate-x-1 transition-transform" />
           </a>
           
-          <button></button>
+          <button
             onClick={handleDownloadNotification}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
@@ -675,14 +675,14 @@ export function ProfileHero() {
             <div key={sIdx} className="bg-white/5 p-4 rounded-xl border border-white/5 hover:border-white/10 transition-all">
               <div className="text-2xl font-black text-orange-500 italic leading-none mb-1">{stat.metric}</div>
               <div className="text-xs text-slate-400 font-medium tracking-wide">{stat.label}</div>
-            </div>
-          ))}
+           </div>
         </div>
       </div>
     </section>
-</section>
-    )
-    } //
+  );
+}
+    
+    
 // ============================================================================
 // COMPONENT 3: GENERAL OVERVIEW (TỔNG QUAN HỒ SƠ PHÁP NHÂN CÔNG TY)
 // ============================================================================
