@@ -607,7 +607,7 @@ export function ProfileHero() {
    }
 
   return (
-    <section></section> className="relative min-h-[550px] flex items-center text-white overflow-hidden bg-slate-950 border-b border-white/5"> //
+    <section>className="relative min-h-[550px] flex items-center text-white overflow-hidden bg-slate-950 border-b border-white/5"> //
       {/* Khối lớp nền hình ảnh kỹ thuật số */}
       <div className="absolute inset-0 z-0 select-none pointer-events-none">
         <img 
