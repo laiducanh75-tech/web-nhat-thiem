@@ -603,7 +603,7 @@ export function ProfileHero() {
    const handleDownloadNotification =(e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     setDownloadCount(prev => prev + 1);
-    alert("Hệ thống đang khởi tạo tải xuống tệp tin bản in mềm 'E-Profile Nhật Thiên Sơn Sài Gòn 2026.pdf'. Vui lòng kiểm tra khay tải xuống của trình duyệt.");
+    alert("Hệ thống đang khởi tạo tải xuống tệp tin bản in mềm 'E-Profile Nhất Thiên Sơn Sài Gòn 2026.pdf'. Vui lòng kiểm tra khay tải xuống của trình duyệt.");
   }; 
 
   return (
