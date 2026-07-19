@@ -675,14 +675,12 @@ export function ProfileHero() {
             <div key={sIdx} className="bg-white/5 p-4 rounded-xl border border-white/5 hover:border-white/10 transition-all">
               <div className="text-2xl font-black text-orange-500 italic leading-none mb-1">{stat.metric}</div>
               <div className="text-xs text-slate-400 font-medium tracking-wide">{stat.label}</div>
-           </div>
+          </div>
         </div>
       </div>
     </section>
   );
 }
-    
-    
 // ============================================================================
 // COMPONENT 3: GENERAL OVERVIEW (TỔNG QUAN HỒ SƠ PHÁP NHÂN CÔNG TY)
 // ============================================================================
