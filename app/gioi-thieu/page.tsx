@@ -687,7 +687,7 @@ export function ProfileHero() {
 // COMPONENT 3: GENERAL OVERVIEW (TỔNG QUAN HỒ SƠ PHÁP NHÂN CÔNG TY)
 // ============================================================================
 
-export function GeneralOverview() {
+export default function GeneralOverview() {
   const [activeTab, setActiveTab] = useState<'profile' | 'philosophy' | 'commitments'>('profile');
 
   return (
