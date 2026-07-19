@@ -8,7 +8,7 @@ export default function GioiThieuPage() {
       <header className="relative py-24 px-6 text-center bg-gradient-to-b from-stone-900 to-stone-950 border-b border-stone-900">
         <div className="max-w-4xl mx-auto">
           <span className="text-amber-500 tracking-[0.25em] text-xs font-bold uppercase block mb-4">
-            Công Ty TNHH TM DV Vận Tải Nhật Thiên Sơn Sài Gòn
+            Công Ty TNHH TM DV Vận Tải Nhất Thiên Sơn Sài Gòn
           </span>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-stone-100 leading-tight mb-6">
             Năng Lực Đóng Hàng & <br />
