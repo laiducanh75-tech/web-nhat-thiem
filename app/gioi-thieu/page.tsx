@@ -600,11 +600,11 @@ export function ProfileHero() {
   const [downloadCount, setDownloadCount] = useState<number>(1420);
   const [isHovered, setIsHovered] = useState<boolean>(false);
 
-  const handleDownloadNotification = (e: React.MouseEvent<HTMLButtonElement>) => {
+   const handleDownloadNotification = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     setDownloadCount(prev => prev + 1);
     alert("Hệ thống đang khởi tạo tải xuống tệp tin bản in mềm 'E-Profile Nhật Thiên Sơn Sài Gòn 2026.pdf'. Vui lòng kiểm tra khay tải xuống của trình duyệt.");
-   }
+  };   //
 
   return (
     <section className="relative min-h-[550px] flex items-center text-white overflow-hidden bg-slate-950 border-b border-white/5">
